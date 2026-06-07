@@ -1,0 +1,103 @@
+# 1 Rax Raider Expand
+
+## opening
+
+| Supply     | Build                       |
+| ---------- | --------------------------- |
+| 8          | House                       |
+| 9          | Rax                         |
+| ༼ つ ◕_◕ ༽つ | Go to 13 workers, 3 raiders |
+| 19         | Castle                      |
+| 19         | Rax                         |
+| 20         | Worker                      |
+
+OR
+
+| Supply     | Build                       |
+| ---------- | --------------------------- |
+| 8          | House                       |
+| 9          | Rax                         |
+| ༼ つ ◕_◕ ༽つ | Go to 11 workers, 2 raiders |
+| 15         | Castle                      |
+| 17         | raider                      |
+| 18         | worker                      |
+| 20         | raider                      |
+my primary write up is not on this version of the opening as its an older but still a very valid style however its less forgiving to small mistakes and has less aggressive potential but still very worth mentioning as it was the standard in lwg for a very long time and remains strong to this day.
+
+typically going 4-5 raiders off 1 rax and cutting workers at 16 to drop a very fast 3rd castle on     24-26/30 > from here there are quite a few options you can go with. my primary one generally sticks with the theme of my normal build order chunks just with a faster third, and after it id want to start 2 workers > 2nd rax  > 2 workers 30/30 > @100% castle 3 worker >2 unit > house > 3 worker from there it gets abit easier.
+
+another option if you are worried about heavy pressure or maybe have ideas to backstab them with raiders if they try to pressure you is, 
+26 castle > 28 tower (3rd) > 30 tower(nat) @ 100% castle > resume rax production with archers > house > 2nd rax > forge
+
+
+
+---
+
+### @ 100% Castle
+
+1. x2 Worker
+2. x2 Units
+3. House
+4. Repeat once
+5. 3rd Castle
+6. Macro
+## Early game scouting 
+> [[Opening Response Guide.svg|See the scouting reactions graphic for the full decision tree]]
+
+
+## Mid Game Transitions
+
+From here there are a lot of options depending on how things have gone. Transitions happen in **chunks** — you are expected to pick them up as you have the money, whilst normally macroing (making units / workers / houses) unless stated otherwise.
+
+> [[decision_making_skeleton.svg|See Build order skeleton]]
+
+
+---
+## Mid Game tips?
+Raiders don't belong defending at home most of the time they are most dangerous threatening backstabs and scouting. The amount of times i see people pull them back to defend vs pushes smh. 
+If you can get behind them right as they leave have 1 raider hold position abit closer to were they left from incase they come back and the rest can go for the workers. Otherwise cut off the rally for a few moments then mosey behind them so you can hit them from both sides when you're ready.
+
+with rax play i really advise a bird around the time of your third completing as its harder to gather info without endangering or giving away the position of your raiders. not only will the bird scout but it pulls double duty right after scouting by helping you keep nearly perfect track of their main unit positioning this can let you much more quickly & accurately figure out weak points to go after with your raiders while macroing up.
+
+vs beast hot keying your first 4 to 5 archers separately is useful as 4 archers will 2 shot a snake and 5 archers will 3 shot a wolf
+
+don't put your early houses as walls they are just easy targets for wolf snake to come in and poke at repairing buildings is very expensive unless you need that building to stay alive in that moment its more cost effective to just build a new house or rax rather than repair if you fear losing one in the near future. later on it can be okay to make semi walls with buildings when you have more money
+## Scouting Reactions
+
+### If opponent is playing standard
+`forge > 4th > 2 rax (4)` — can swap this order as you see fit.
+
+---
+
+### If opponent's 3rd is notably later than yours
+`2 rax (4) > 2x forge > take 4th > 2 rax (6) > church`
+
+---
+
+### If opponent goes early workshop / air
+
+- Get **adv. workshop** as soon as you know — it can actually supersede the 3rd base in priority if you learn it early enough.
+- Use **ballista ship** to deny pressure and look to stay a full base ahead.
+- If they go to take a 3rd → take your 4th right away.
+- Going for air or cata drops will generally mean their actual ground power is pretty weak for a while — but **don't** get carried away and try to take a 4th vs someone still on 2 base. Respect 2-base all-ins somewhat.
+
+---
+
+### If rax vs rax after third
+
+`2 rax (4) > forge > 4th > 2 workshops / adv. workshop > forge`
+
+We really need earlier access to **4 rax** after third to be safe from all-ins, as we can't always scout their third right on time in rax vs rax with archers mucking about.
+
+As the game goes on, many archers get made so catapults become very strong as they hard counter them. But if you rush catas too fast you give up map control too early.
+
+**General catapult timing logic:**
+- At some point once becoming saturated on 3 base drop a couple of workshops, then a 4th base (or vice versa).
+- If you go workshops first → drop the 4th before actually starting catas. You don't want to fall too far behind in eco.
+- Adv. workshop is a natural pairing with the workshops to begin cata dropping.
+
+**soldiers & cata drops** are good harassment tools — much better than archers for this chaotic part of the game and can be thrown around the map in small groups. once you have a 4-6 catas defensively you don't need very many soldiers to tank your archers / cata at home, leaving the rest free to fight for map control / harass along side the cata drops
+
+**Gyro transition** — if the game doesn't turn into a low eco dogfight, at some point a gyro transition is a valid option to add an extra dynamic. You could also blindly add another adv workshop or 2 and blindly get gunpowder. Ballista are more supply efficient (better in 1 big fight) but struggle more with map control than gyros take your pick.
+### Vs Beast
+As long as you aren't horribly behind in eco you only stand to gain by waiting and growing supply. Beast benefits from trading and using their very fast production cycles to chip away at you and they can field large midgame armies because of this. if you can abstain from taking any horrendous trades until you reach 120+ supply though beast is in trouble if upgrades are even wolfsnake tends to require a substantial supply lead to battle vs rax armies. So much so that its standard play for beast to transition into catas after their 4th or 5th base in order to have some of kind answer to your death ball, once you scout them switching into cata's that is your big signal to claim the map back. if you are capable split pushing and taking bases is ideal now. every time you come across their forces just poke and kite back away from the catas or letting them trap half your army alone with their entire army is their only threat to you at this point. you can nullify the getting your army trapped alone threat by keeping it together but then you have a new problem, they can begin base tradey tactics and expand away from your army and its fairly effective.
