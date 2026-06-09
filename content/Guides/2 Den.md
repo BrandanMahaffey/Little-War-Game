@@ -13,19 +13,19 @@ cssclasses:
 | 10     | x3 wolf > house           |
 | 16     | house >   2 wolf          |
 | 20/20  | Worker > 2 wolf           |
-| 30/30  | Worker rally to expansion |
+| 29/30  | Worker rally to expansion |
 
 
 OR
 
 
-| Supply | Build                          |
-| ------ | ------------------------------ |
-| 9      | House                          |
-| 10     | x2 den > worker                |
-| 11     | wolf > house > continue wolves |
-| 25     | third house > x2 wolf          |
-| 29     | worker rally castle to nat     |
+| Supply | Build                             |
+| ------ | --------------------------------- |
+| 9      | House                             |
+| 10     | x2 den > worker                   |
+| 11     | wolf > 13 house > continue wolves |
+| 25     | third house > x2 wolf             |
+| 29     | worker rally castle to nat        |
 
 
 ---
