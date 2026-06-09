@@ -41,7 +41,7 @@ Wolf archer is very versatile in the early game though you often need workers to
 
 Link to reference graphics when relevant:
 
-- <a href="https://brandanmahaffey.github.io/Little-War-Game/static/Graphics/Opening_Response_Guide.html" target="_blank" rel="noopener">Opening Response Guide</a>
+- <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/Opening_Response_Guide.html" target="_blank" rel="noopener">Opening Response Guide</a>
 
 Den openings have the most consistent access to early gold reading with the first wolf which is a big part of what makes my opening safe. Without gold reading and reacting you will Have a bad time.
 I would even argue gold reading is still a safe habit for DC opening but its window to read the gold or figure out what's going on through other means is larger as your castle is later you have more time to scout and its natively safer by nature of being a more aggressive opening.
@@ -61,7 +61,7 @@ I would even argue gold reading is still a safe habit for DC opening but its win
 
 From here there are a lot of options depending on how things have gone. Transitions happen in **chunks** — pick them up as you have the money while macroing.
 
-- <a href="https://brandanmahaffey.github.io/Little-War-Game/static/Graphics/decision_making_skeleton.html" target="_blank" rel="noopener">Decision Making Skeleton</a>
+- <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html" target="_blank" rel="noopener">Decision Making Skeleton</a>
 
 **Workshop Transition**: It is very typical for beast after their 4th or 5th base to add on 2 to 3 workshops to have access to catapult drops to aid in their ability to harras as well as some kind of answer to the rax army starting to become a deathball.
 

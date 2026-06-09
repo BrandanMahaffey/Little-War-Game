@@ -21,7 +21,7 @@ Written openings with build tables, mid-game transitions, and how to react to sc
 
 Interactive reference visuals with pan and zoom.
 
-- [Decision Making Skeleton](https://brandanmahaffey.github.io/Little-War-Game/static/Graphics/decision_making_skeleton.html) — build order chunks.
-- [Opening Response Guide](https://brandanmahaffey.github.io/Little-War-Game/static/Graphics/Opening_Response_Guide.html) — Cheese scouting reactions — what to look for and how to respond.
+- [Decision Making Skeleton](https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html) — build order chunks.
+- [Opening Response Guide](https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/Opening_Response_Guide.html) — Cheese scouting reactions — what to look for and how to respond.
 
 More guides and embedded videos coming as I write them.

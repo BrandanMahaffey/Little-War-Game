@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: BrandanMahaffey.github.io/Little-War-Game
+  baseUrl: BrandanMahaffey.github.io/LWG-Guides
   ignorePatterns:
     - private
     - templates
@@ -228,7 +228,7 @@ plugins:
     options:
       links:
         YouTube: https://www.youtube.com/@I-Iaffey/videos
-        Site Repo: https://github.com/BrandanMahaffey/Little-War-Game
+        Site Repo: https://github.com/BrandanMahaffey/LWG-Guides
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer

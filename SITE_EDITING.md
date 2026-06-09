@@ -22,7 +22,7 @@ Pin this file in your editor — it is **not** published (lives outside `content
 npx quartz build --serve
 ```
 
-**Important:** Always use `--serve` for local preview. A plain `npx quartz build` bakes in `/Little-War-Game` as the base path — navigation will 404 on `localhost:8080`.
+**Important:** Always use `--serve` for local preview. A plain `npx quartz build` bakes in `/LWG-Guides` as the base path — navigation will 404 on `localhost:8080`.
 
 ## Deploy
 
@@ -55,7 +55,7 @@ Graphics stub pages use `cssclasses: [graphic-page]` to hide the Properties bloc
 1. Copy [[content/templates/Guide Template.md]] → `content/Guides/Your Guide.md`
 2. Set `draft: false` when ready
 3. Add a link on [[content/Index.md]] and [[content/Guides/index.md]]
-4. Interactive graphics use full URLs: `https://brandanmahaffey.github.io/Little-War-Game/static/Graphics/...html`
+4. Interactive graphics use full URLs: `https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/...html`
 
 ## Explorer sidebar stuck?
 

@@ -45,13 +45,13 @@ another option if you are worried about heavy pressure or maybe have ideas to ba
 5. 3rd Castle
 6. Macro
 ## Early game scouting 
-- <a href="https://brandanmahaffey.github.io/Little-War-Game/static/Graphics/Opening_Response_Guide.html" target="_blank" rel="noopener">Opening Response Guide</a>
+- <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/Opening_Response_Guide.html" target="_blank" rel="noopener">Opening Response Guide</a>
 
 
 ## Mid Game Transitions
 
 From here there are a lot of options depending on how things have gone. Transitions happen in **chunks** — you are expected to pick them up as you have the money, whilst normally macroing (making units / workers / houses) unless stated otherwise.
-- <a href="https://brandanmahaffey.github.io/Little-War-Game/static/Graphics/decision_making_skeleton.html" target="_blank" rel="noopener">Decision Making Skeleton</a>
+- <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html" target="_blank" rel="noopener">Decision Making Skeleton</a>
 
 
 ---

@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "BrandanMahaffey.github.io/Little-War-Game",
+    baseUrl: "BrandanMahaffey.github.io/LWG-Guides",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {

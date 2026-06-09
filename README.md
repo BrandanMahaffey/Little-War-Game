@@ -2,7 +2,7 @@
 
 Quartz site for LWG guides and interactive graphics.
 
-**Live site:** https://brandanmahaffey.github.io/Little-War-Game/
+**Live site:** https://brandanmahaffey.github.io/LWG-Guides/
 
 ## Edit & deploy
 
