@@ -1,0 +1,301 @@
+@use "./variables.scss" as *;
+
+// Royal purple — Browse folder titles; homepage links use same hue on dark card fill
+:root,
+:root[saved-theme="dark"] {
+  --royal-purple: #a78bfa;
+  --royal-purple-hover: #c4b5fd;
+  --gold-accent: #c9a84c;
+}
+
+:root[saved-theme="light"] {
+  --royal-purple: #5b46a8;
+  --royal-purple-hover: #6f58c0;
+  --gold-accent: #a8842a;
+}
+
+// Site title image (SiteTitleImage.tsx)
+.sidebar.left h2.page-title {
+  margin: 0 0 0.75rem;
+  max-width: 100%;
+
+  a {
+    display: block;
+    line-height: 0;
+  }
+
+  .site-title-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+}
+
+// Explorer: scrollable tree when expanded; hide content when collapsed
+.sidebar.left {
+  overflow: hidden;
+  min-height: 0;
+
+  .explorer:not(.collapsed) {
+    flex: 1 1 0;
+    min-height: 0;
+    overflow: hidden;
+
+    .explorer-content {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow-y: auto;
+    }
+  }
+
+  .explorer.collapsed {
+    flex: 0 0 auto;
+    overflow: hidden;
+
+    .explorer-content {
+      display: none;
+    }
+
+    button.desktop-explorer,
+    button.mobile-explorer {
+      min-height: 2.25rem;
+      padding: 0.25rem 0;
+    }
+
+    h2 {
+      line-height: 1.5;
+      white-space: nowrap;
+    }
+  }
+}
+
+// TOC: hide list when collapsed; keep header readable
+.sidebar.right .toc:has(button.toc-header.collapsed) {
+  flex: 0 0 auto;
+  overflow: hidden;
+
+  .toc-content {
+    display: none;
+  }
+}
+
+.sidebar.right .toc button.toc-header {
+  min-height: 2.25rem;
+  padding: 0.25rem 0;
+
+  &.collapsed h3 {
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+}
+
+// Prevent long guide / folder names from getting cut off in the tree
+.explorer-content ul li > a,
+.folder-container div > a,
+.folder-container div > button span {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+// Browse folder headers — match homepage card link purple
+.folder-container div > a,
+.folder-container div > button span,
+.folder-icon {
+  color: var(--royal-purple);
+}
+
+.folder-container div > a:hover,
+.folder-icon:hover {
+  color: var(--royal-purple-hover);
+}
+
+// Homepage layout
+article.home {
+  .home-intro,
+  & > .markdown-preview-view > p:first-of-type {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    max-width: 42rem;
+  }
+
+  h2 {
+    margin-top: 2.25rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--lightgray);
+    margin-bottom: 0.35rem;
+
+    &:first-of-type {
+      border-top: none;
+      padding-top: 0;
+      margin-top: 1.5rem;
+    }
+  }
+
+  h2 + p {
+    color: var(--gray);
+    margin: 0 0 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 44rem;
+
+    li {
+      margin: 0.65rem 0;
+      padding: 0.65rem 0.85rem 0.65rem 0.75rem;
+      border-radius: 6px;
+      // Dark fill + gold accent stripe — purple reads here; amber wash behind text does not
+      background: var(--light);
+      border: 1px solid var(--lightgray);
+      border-left: 3px solid var(--gold-accent);
+      box-shadow: inset 0 1px 0 color-mix(in srgb, var(--gold-accent) 10%, transparent);
+      line-height: 1.45;
+      color: var(--darkgray);
+
+      a.internal,
+      a.external {
+        color: var(--royal-purple);
+        font-weight: $semiBoldWeight;
+
+        &:hover {
+          color: var(--royal-purple-hover);
+        }
+      }
+
+      a.external .external-icon > path {
+        fill: var(--royal-purple);
+      }
+
+      a.external:hover .external-icon > path {
+        fill: var(--royal-purple-hover);
+      }
+
+      // Quartz gives all wikilinks a second highlight pill — drop it inside homepage cards
+      a.internal {
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+        line-height: inherit;
+      }
+    }
+  }
+
+  & > .markdown-preview-view > p:last-of-type {
+    margin-top: 2.5rem;
+    font-size: 0.9rem;
+    color: var(--gray);
+  }
+}
+
+// Graphics stub pages — subtitle under title, no Properties / date chrome
+.center:has(article.graphic-page) {
+  .page-header {
+    margin-bottom: 0;
+
+    .note-properties,
+    .content-meta,
+    .breadcrumb-container {
+      display: none;
+    }
+  }
+}
+
+#quartz-body:has(article.graphic-page) .sidebar.right .backlinks {
+  display: none;
+}
+
+article.graphic-page {
+  h1 {
+    margin-bottom: 0.35rem;
+  }
+
+  .page-subtitle {
+    font-style: italic;
+    color: var(--gray);
+    font-size: 1.05rem;
+    margin: 0 0 1rem;
+    line-height: 1.55;
+    max-width: 42rem;
+  }
+
+  .viewer-link {
+    display: inline-block;
+    margin-top: 0.25rem;
+    font-weight: $semiBoldWeight;
+  }
+
+  // Mobile: embed pan/zoom viewer inline; desktop keeps the open-in-tab link
+  .graphic-viewer {
+    display: none;
+    width: 100%;
+    height: min(75vh, 640px);
+    margin-top: 1rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 6px;
+    background: #0f1117;
+  }
+
+  @media (max-width: 800px) {
+    .viewer-link {
+      display: none;
+    }
+
+    .graphic-viewer {
+      display: block;
+    }
+  }
+}
+
+// Folder index pages (Graphics/, Guides/) — no duplicate listing or metadata chrome
+.center:has(.page-listing) {
+  .page-header {
+    .note-properties,
+    .content-meta {
+      display: none;
+    }
+  }
+
+  .page-listing {
+    display: none;
+  }
+
+  .markdown-preview-view a.internal {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    line-height: inherit;
+  }
+}
+
+// Guide pages — no Properties box or read-time in header
+body[data-slug^="guides/"]:not([data-slug="guides/index"]) .page-header {
+  .note-properties,
+  .content-meta {
+    display: none;
+  }
+}
+
+// Guide pages — readable spacing without touching prose
+article.guide-page {
+  .markdown-preview-view {
+    table {
+      margin: 0.75rem 0 1.25rem;
+    }
+
+    hr {
+      margin: 1.75rem 0;
+      border: none;
+      border-top: 1px solid var(--lightgray);
+    }
+
+    p {
+      line-height: 1.7;
+      margin: 0.85rem 0;
+      max-width: 44rem;
+    }
+  }
+}
