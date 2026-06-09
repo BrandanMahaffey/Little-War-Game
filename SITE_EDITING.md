@@ -26,9 +26,13 @@ npx quartz build --serve
 
 ## Deploy
 
+You work on the `main` branch now (history was squashed to a single commit). Make sure you're on `main` before pushing — not `v5:main`, which pushes an old local branch and will be rejected.
+
 ```bash
-git add -A && git commit -m "your message" && git push origin v5:main
+git add -A && git commit -m "bleh" && git push origin main
 ```
+
+Replace `bleh` with a short note about what you changed, or keep `bleh` if it's a tiny tweak.
 
 ## Page subtitle (graphics pages like Opening Response Guide)
 
