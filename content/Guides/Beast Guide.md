@@ -63,7 +63,7 @@ From here there are a lot of options depending on how things have gone. Transiti
 
 - <a href="https://brandanmahaffey.github.io/Little-War-Game/static/Graphics/decision_making_skeleton.html" target="_blank" rel="noopener">Decision Making Skeleton</a>
 
-**Workshop Transition**: It is very typical for beast after their 4th or 5th base to add on 2 to 3 workshops to have access to catapult drops to aid in their ability to harras as well as some kind of answer to the rax army starting to become a deathball.
+**Workshop Transition**: It is very typical for beast after their 4th or 5th base to add on 2 to 3 workshops to have access to catapult drops to aid in their ability to harass as well as some kind of answer to the rax army starting to become a deathball.
 
 **Heavy upgrades + Church**: I have been toying with going up to 3 testing labs regularly to try and start rushing out armor upgrades suddenly after our 4th base as it will make dragons and WW alot more viable tech options I also recommend pairing a church with the start of the armor upgrades for 2 reasons
 1. Stacking beast hp regen + healing wards + armor seems very strong.

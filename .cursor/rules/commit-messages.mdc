@@ -1,0 +1,19 @@
+---
+description: Commit message style when the agent commits and pushes
+alwaysApply: true
+---
+
+# Commit messages (agent pushes)
+
+When creating commits that will be pushed:
+
+1. **Default:** Write a short, context-driven subject that says what changed and why.
+   - Good: `Remove nested wikilink highlight on homepage cards`
+   - Good: `Trigger GitHub Pages deploy on main branch pushes.`
+   - Bad: `your message`, `update`, `fix stuff`, `changes`
+
+2. **Fallback:** If the change is too small or vague to name clearly, use **`bleh`** or **`meh`** — never a generic placeholder.
+
+3. **Never** leave commit messages blank, generic, or copied from tool templates.
+
+4. **No Cursor attribution in commits.** Do not add `Co-authored-by: Cursor`, `Made-with: Cursor`, or any other Cursor/agent trailer to commit messages. Use plain `git commit -m "message"` only.
