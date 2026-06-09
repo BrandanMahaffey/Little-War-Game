@@ -26,11 +26,14 @@ OR
 - **Summary of the classic opening**
 My primary write up is not on this version of the opening, as its an older but still a very valid style; however, its less forgiving to small mistakes and has less aggressive potential, but still very worth mentioning. I still think personally think of this version of the opening as the **Sqrtofneg1** build to this day, specifically when playing a 24 or 26 supply castle off 1 house.
 
-Typically going 4-5 raiders off 1 rax and cutting workers at 16 to drop a very fast 3rd castle on 24-26/30 > from here there are quite a few options you can go with. My primary one generally sticks with the theme of my normal build order chunks, just with the third swapped in front of 2nd production. After Castling id want to start 2 workers > 2nd rax > 2 workers 30/30 > @100% castle 3 worker >2 unit > house > 3 worker. From there it gets abit easier. If concerned with an all in you can swap out 2 workers for an extra unit, but i find id usually just rather have the workers even under pressure.
+**Vs Beast**
+Typically going 4-5 raiders off 1 rax and cutting workers at 16 to drop a very fast 3rd castle on 24-26/30 > from here there are quite a few options you can go with. My primary one generally sticks with the theme of my normal build order chunks, just with the third swapped in front of 2nd production. After Castling id want to start 2 workers > 2nd rax > 2 workers 30/30 > @100% castle 3 worker >2 unit > house > 3 worker. From there it gets easier to macro. If concerned with an all in you can swap out 2 workers for an extra unit, but i find id usually just rather have the workers even under pressure. however i have a separate preferred version when running into a rax mirror
 
-Another option if you are worried about heavy pressure or maybe have ideas to backstab them with raiders if they try to pressure you is:
+ **Vs Rax**: Third then drop 2 dens right away then resume workers often even cutting raider production off at 3 or 4 to get the castle and dens down faster. Its very important to note you cant actually afford to produce out of all your castles and use 3 production buildings and keep up with houses while following this setup but it was highly flexible if you needed to cut workers longer and pump wolves + soldier/archer you can. If your raider scouting made you feel like there was no immediate danger simply delay using the dens in favor of worker + archer production. I also enjoy this follow up as a way to get out of a Rax Mirror match up going into the mid game.
 
-26 castle > 28 tower (3rd) > 30 tower(nat) @ 100% castle > 3x worker > archer > house > 2nd production facility
+Another option suitable in any match up but I think its only good if you follow up with mech and ideally utilizing the raiders to backstab if your opponent tries to pressure you.
+
+26 castle > 28 tower (3rd) > 30 tower(nat) @ 100% castle > 3x worker > archer > house > Workshop.
 
 There are obviously other fine ways to follow up from the classic opening but I simply listed what I believe to be the best follow ups I really believe the sqrt setup is still a top tier opening worth practicing.
 
@@ -47,7 +50,7 @@ There are obviously other fine ways to follow up from the classic opening but I 
 vs beast if i feel like my raiders have done some okay work vs their wolves I am quite fond of pushing with 3 raiders 4 soldiers and then making 2 extra soldiers before my third and rallying them to to the third to help secure it while i do some poking.
 ## Early game scouting 
 - <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/Opening_Response_Guide.html" target="_blank" rel="noopener">Opening Response Guide</a>
-
+When possible while scouting around someone's natural its often a very good habit to look if their castle is producing. there is a small flashing light under the door if workers are being produced, in the early game if you notice this not flashing for more than a few seconds that is highly suspect of a worker cut all in / pressure off 2 base and you will want to be on guard.
 
 ## Mid Game Transitions
 
