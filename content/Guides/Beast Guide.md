@@ -49,11 +49,11 @@ I would even argue gold reading is still a safe habit for DC opening but its win
 ## Vs Workshop openings
 
 **They aren't Fast expanding?**
-- this gives us 2 things we have to protect ourselves from as we will have a vastly better eco. (A) quick air or small gat gyro pressure, (B) Gat + den Pressure both of these pressures are pretty committed so we just need to play in a way to blindly counter both of these possibilities.
+- this gives us 2 things we have to protect ourselves from as we will have a vastly better eco. (A) quick gyro based pressure, (B) Gat + den Pressure both of these pressures are pretty committed so we just need to play in a way to blindly counter both of these possibilities.
 - If they are not taking a quick expansion themselves you will want to rush a snake charmer after 2nd den to have short term access to anti air. If their Workshop is constantly producing we want to try to be constantly producing wolves even if we have to make a small worker cut to fit in the charmer and still make wolves. Otherwise whenever we feel safe priority goes to the transition and workers.
 
 **Transitioning once we are safe or if they fast expand**
-- After my 2 den snake charmer setup I typically like going for an Advanced Workshop + Testing Lab Rather than rushing a third. We desperately want good attack upgrades vs Mech and access to drop play as Mech doesn't have many good answers early on against airship harass. We also want ballista if they make lots of gyro's or catapult drops, we cant rely on the snakes long term. Having a better and 2nd form of anti air will free up our snakes to be out on the map as well.
+- After still doing a 2 den snake charmer setup we just don't have to rush anything if they fast expand, I typically like going for an Advanced Workshop + Testing Lab Rather than rushing a third. We desperately want good attack upgrades vs Mech and access to drop play as Mech doesn't have many good answers early on against airship harass. We also want ballista if they make lots of gyro's or catapult drops, we cant rely on the snakes long term. Having a better and 2nd form of anti air will free up our snakes to be out on the map as well.
 
 ---
 
@@ -63,7 +63,7 @@ From here there are a lot of options depending on how things have gone. Transiti
 
 - <a href="https://brandanmahaffey.github.io/Little-War-Game/static/Graphics/decision_making_skeleton.html" target="_blank" rel="noopener">Decision Making Skeleton</a>
 
-**Workshop Transition**: It is very typical for beast after their 4th or 5th base to add on 2 to 3 workshops to have access to catapult drops to aid in their ability to harass as well as some kind of answer to the rax army starting to become a deathball.
+**Workshop Transition**: It is very typical for beast after their 4th or 5th base to add on 2 to 3 workshops to have access to catapult drops to aid in their ability to harras as well as some kind of answer to the rax army starting to become a deathball.
 
 **Heavy upgrades + Church**: I have been toying with going up to 3 testing labs regularly to try and start rushing out armor upgrades suddenly after our 4th base as it will make dragons and WW alot more viable tech options I also recommend pairing a church with the start of the armor upgrades for 2 reasons
 1. Stacking beast hp regen + healing wards + armor seems very strong.
