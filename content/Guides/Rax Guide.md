@@ -24,7 +24,7 @@ OR
 
 
 - **Summary of the classic opening**
-My primary write up is not on this version of the opening, as its an older but still a very valid style; however, its less forgiving to small mistakes and has less aggressive potential, but still very worth mentioning. I still think personally think of this version of the opening as the **Sqrtofneg1** build to this day, specifically when playing a 24 or 26 supply castle off 1 house.
+My primary write up is not on this version of the opening, as its an older but still a very valid style; however, its less forgiving to small mistakes and has less aggressive potential, but still very worth mentioning. I still personally think of this version of the opening as the **Sqrtofneg1** build to this day, specifically when playing a 24 or 26 supply castle off 1 house.
 
 **Vs Beast**
 Typically going 4-5 raiders off 1 rax and cutting workers at 16 to drop a very fast 3rd castle on 24-26/30 > from here there are quite a few options you can go with. My primary one generally sticks with the theme of my normal build order chunks, just with the third swapped in front of 2nd production. After Castling id want to start 2 workers > 2nd rax > 2 workers 30/30 > @100% castle 3 worker >2 unit > house > 3 worker. From there it gets easier to macro. If concerned with an all in you can swap out 2 workers for an extra unit, but i find id usually just rather have the workers even under pressure. However, i have a separate preferred version when running into a rax mirror.
