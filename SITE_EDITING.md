@@ -18,11 +18,34 @@ Pin this file in your editor — it is **not** published (lives outside `content
 
 ## Preview locally
 
+From the repo root (`C:\Users\haffey\quartz`):
+
+```bash
+npm run preview
+```
+
+Same thing, longer form:
+
 ```bash
 npx quartz build --serve
 ```
 
-**Important:** Always use `--serve` for local preview. A plain `npx quartz build` bakes in `/LWG-Guides` as the base path — navigation will 404 on `localhost:8080`.
+Then open **http://localhost:8080** in your browser. The server watches `content/` and rebuilds on save — the tab should refresh automatically.
+
+**Important:** Always use `--serve` (or `npm run preview`). A plain `npx quartz build` bakes in `/LWG-Guides` as the base path — navigation will 404 on `localhost:8080`.
+
+**Graphics stub pages** (iframe + “Open fullscreen viewer” on [[content/Graphics/]]) use the **live GitHub Pages URL** on purpose, so embedded previews always work in the SPA. To test **local** HTML/SVG changes before deploy, open the viewer directly:
+
+- http://localhost:8080/static/Graphics/decision_making_skeleton.html
+- http://localhost:8080/static/Graphics/Opening_Response_Guide.html
+
+After editing files under `quartz/static/Graphics/`, re-inline SVG into HTML:
+
+```bash
+node scripts/inline-graphics.mjs
+```
+
+Fullscreen viewers have **← Back** and **Home** in the toolbar; guide/index links open them in the **same tab** (no new tab).
 
 ## Deploy
 
@@ -55,7 +78,8 @@ Graphics stub pages use `cssclasses: [graphic-page]` to hide the Properties bloc
 1. Copy [[content/templates/Guide Template.md]] → `content/Guides/Your Guide.md`
 2. Set `draft: false` when ready
 3. Add a link on [[content/Index.md]] and [[content/Guides/index.md]]
-4. Interactive graphics use full URLs: `https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/...html`
+4. Interactive graphics use full URLs: `https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/...html` (no `target="_blank"` — same-tab fullscreen)
+5. Source assets: `quartz/static/Graphics/` (`.html`, `.svg`); Excalidraw sources live in Obsidian `Excalidraw/`
 
 ## Explorer sidebar stuck?
 

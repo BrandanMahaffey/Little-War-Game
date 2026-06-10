@@ -32,7 +32,20 @@
       margin-right: auto;
     }
 
-    button {
+    .toolbar-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    a.nav-btn {
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    button, a.nav-btn {
       background: #1a1d2c;
       color: #8892a4;
       border: 1px solid #252a3a;
@@ -44,7 +57,7 @@
       transition: all 0.15s;
     }
 
-    button:hover {
+    button:hover, a.nav-btn:hover {
       background: #252a3a;
       color: #dde3ed;
     }
@@ -83,6 +96,10 @@
 <body>
 
 <div class="toolbar">
+  <div class="toolbar-nav">
+    <button type="button" class="nav-btn" onclick="goBack()">← Back</button>
+    <a class="nav-btn" href="https://brandanmahaffey.github.io/LWG-Guides/">Home</a>
+  </div>
   <span>Cheese Scouting Response Guide</span>
   <button onclick="fitToScreen()">Fit to screen</button>
   <button onclick="zoomIn()">Zoom in  +</button>
@@ -100,6 +117,16 @@
 <div class="hint">scroll to zoom · drag to pan</div>
 
 <script>
+  const HOME_URL = 'https://brandanmahaffey.github.io/LWG-Guides/';
+
+  function goBack() {
+    if (window.history.length > 1) {
+      history.back();
+    } else {
+      window.location.href = HOME_URL;
+    }
+  }
+
   const viewport = document.getElementById('viewport');
   const canvas = document.getElementById('canvas');
   const img = document.getElementById('img');

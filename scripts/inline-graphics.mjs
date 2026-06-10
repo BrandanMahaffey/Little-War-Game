@@ -2,14 +2,67 @@ import fs from "fs"
 import path from "path"
 
 const dir = path.join("quartz", "static", "Graphics")
+const HOME_URL = "https://brandanmahaffey.github.io/LWG-Guides/"
 const pairs = [
   ["decision_making_skeleton.html", "decision_making_skeleton.svg"],
   ["Opening_Response_Guide.html", "Opening_Response_Guide.svg"],
 ]
 
-function patchScript(html) {
+function patchViewerNav(html) {
+  if (!html.includes("toolbar-nav")) {
+    const navCss = `
+    .toolbar-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    a.nav-btn {
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }`
+
+    html = html.replace(/(\.toolbar span \{[^}]+\})/, `$1${navCss}`)
+    html = html.replace(/button \{/, "button, a.nav-btn {")
+    html = html.replace(/button:hover \{/, "button:hover, a.nav-btn:hover {")
+
+    html = html.replace(
+      /<div class="toolbar">\s*\n\s*<span>/,
+      `<div class="toolbar">
+  <div class="toolbar-nav">
+    <button type="button" class="nav-btn" onclick="goBack()">← Back</button>
+    <a class="nav-btn" href="${HOME_URL}">Home</a>
+  </div>
+  <span>`,
+    )
+  }
+
+  if (!html.includes("function goBack()")) {
+    html = html.replace(
+      /<script>\s*\n/,
+      `<script>
+  const HOME_URL = '${HOME_URL}';
+
+  function goBack() {
+    if (window.history.length > 1) {
+      history.back();
+    } else {
+      window.location.href = HOME_URL;
+    }
+  }
+
+`,
+    )
+  }
+
   return html
-    .replace(
+}
+
+function patchScript(html) {
+  if (!html.includes("function graphicSize(")) {
+    html = html.replace(
       "  const img = document.getElementById('img');",
       `  const img = document.getElementById('img');
 
@@ -25,16 +78,23 @@ function patchScript(html) {
     return { w: el.naturalWidth, h: el.naturalHeight }
   }`,
     )
-    .replace(
-      /  function fitToScreen\(\) \{\n    const vw = viewport\.clientWidth;\n    const vh = viewport\.clientHeight;\n    const iw = img\.naturalWidth;\n    const ih = img\.naturalHeight;/,
-      `  function fitToScreen() {
+  }
+
+  if (html.includes("img.naturalWidth")) {
+    html = html
+      .replace(
+        /  function fitToScreen\(\) \{\n    const vw = viewport\.clientWidth;\n    const vh = viewport\.clientHeight;\n    const iw = img\.naturalWidth;\n    const ih = img\.naturalHeight;/,
+        `  function fitToScreen() {
     const vw = viewport.clientWidth;
     const vh = viewport.clientHeight;
     const { w: iw, h: ih } = graphicSize(img);`,
-    )
-    .replace(/img\.naturalWidth/g, "graphicSize(img).w")
-    .replace(/img\.naturalHeight/g, "graphicSize(img).h")
-    .replace(
+      )
+      .replace(/img\.naturalWidth/g, "graphicSize(img).w")
+      .replace(/img\.naturalHeight/g, "graphicSize(img).h")
+  }
+
+  if (html.includes("// Init — fit to screen once image loads")) {
+    html = html.replace(
       /  \/\/ Init — fit to screen once image loads\n  img\.onload = fitToScreen;\n  if \(img\.complete\) fitToScreen\(\);/,
       `  // Init — fit to screen once graphic is ready
   if (img.tagName.toLowerCase() === 'svg') {
@@ -44,14 +104,28 @@ function patchScript(html) {
     if (img.complete) fitToScreen();
   }`,
     )
+  }
+
+  return html
+}
+
+function embedSvg(html, svg) {
+  if (/<svg id="img"[\s\S]*?<\/svg>/.test(html)) {
+    return html.replace(/<svg id="img"[\s\S]*?<\/svg>/, svg.trim())
+  }
+  if (/<img[^>]+>/.test(html)) {
+    return html.replace(/<img[^>]+>/, svg)
+  }
+  return html
 }
 
 for (const [htmlFile, svgFile] of pairs) {
   let html = fs.readFileSync(path.join(dir, htmlFile), "utf8")
   let svg = fs.readFileSync(path.join(dir, svgFile), "utf8")
   svg = svg.replace("<svg ", '<svg id="img" style="display:block" ')
-  html = html.replace(/<img[^>]+>/, svg)
+  html = embedSvg(html, svg)
   html = patchScript(html)
+  html = patchViewerNav(html)
   fs.writeFileSync(path.join(dir, htmlFile), html)
   console.log(`Updated ${htmlFile} (${fs.statSync(path.join(dir, htmlFile)).size} bytes)`)
 }

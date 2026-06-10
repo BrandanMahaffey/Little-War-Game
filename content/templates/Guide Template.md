@@ -25,7 +25,7 @@ Notes on the opening go here. Tables for build orders, prose for the why.
 
 Link to reference graphics when relevant:
 
-- <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html" target="_blank">Decision Making Skeleton</a>
+- <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html">Decision Making Skeleton</a>
 
 ---
 
