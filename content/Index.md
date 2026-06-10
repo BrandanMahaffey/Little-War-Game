@@ -13,15 +13,15 @@ Free learning material for **Little War Game** — build orders, decision trees,
 
 Written openings with build tables, mid-game transitions, and how to react to scouts.
 
-- [[Guides/Rax Guide|1 Rax Raider Expand]] — The classic 1-rax opening — build chunks, raider usage, and scouting reactions.
-- [[Guides/2 Den|2 Den]] — Early wolf pressure, when to commit, and how to make raiders miserable.
-- [[Guides/Beast Guide|Beast Guide]] — DC and Haffey openings, workshop matchups.
+- [[Guides/Rax Guide|1 Rax Raider Expand]] 
+- [[Guides/2 Den|2 Den]]
+- [[Guides/Beast Guide|Beast Guide]]
 
 ## Graphics
 
 Interactive reference visuals with pan/zoom. Best on desktop.
 
-- [Decision Making Skeleton](https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html) — Build order chunk theory — how to think about transitions instead of memorizing one line.
+- [Decision Making Skeleton](https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html) — Build order chunk theory — how to think about transitions.
 - [Opening Response Guide](https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/Opening_Response_Guide.html) — Cheese scouting reactions — what to look for and how to respond.
 
 More guides and embedded videos coming as I write them.
