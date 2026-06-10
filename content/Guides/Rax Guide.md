@@ -54,13 +54,13 @@ There are obviously other fine ways to follow up from the classic opening, but I
 - Vs beast if i feel like my raiders have done some okay work vs their wolves I am quite fond of pushing with 3 raiders 4 soldiers and then making 2 extra soldiers before my third and rallying them to to the third to help secure it while i do some poking.
 
 ## Early game scouting 
-- <a href="../static/Graphics/Opening_Response_Guide.html">Opening Response Guide</a>
+- <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/Opening_Response_Guide.html">Opening Response Guide</a>
 When possible while scouting around someone's natural its often a very good habit to look if their castle is producing. There is a small flashing light under the door if workers are being produced. In the early game, if you notice this not flashing for more than a few seconds that is highly suspect of a worker cut all in / pressure off 2 base.
 
 ## Mid Game Transitions
 
 From here there are a lot of options depending on how things have gone. Transitions happen in **chunks** — you are expected to pick them up as you have the money, whilst normally macroing (making units / workers / houses) unless stated otherwise.
-- <a href="../static/Graphics/decision_making_skeleton.html">Decision Making Skeleton</a>
+- <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html">Decision Making Skeleton</a>
 
 
 ---

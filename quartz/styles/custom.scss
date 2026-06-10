@@ -239,6 +239,10 @@ article.graphic-page {
     display: inline-block;
     margin-top: 0.25rem;
     font-weight: $semiBoldWeight;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    line-height: inherit;
   }
 
   .graphic-viewer {
@@ -279,6 +283,14 @@ body[data-slug^="guides/"]:not([data-slug="guides/index"]) .page-header {
   .content-meta {
     display: none;
   }
+}
+
+// Guide pages — strip Quartz internal-link pill on plain HTML links in lists
+article.guide-page .markdown-preview-view ul a.internal {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  line-height: inherit;
 }
 
 // Guide pages — readable spacing without touching prose
