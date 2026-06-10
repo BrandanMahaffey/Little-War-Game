@@ -55,7 +55,7 @@ When possible while scouting around someone's natural its often a very good habi
 **Transitioning once we are safe or if they fast expand**
 - After still doing a 2 den snake charmer setup we just don't have to rush anything if they fast expand, I typically like going for an Advanced Workshop + Testing Lab Rather than rushing a third. We desperately want good attack upgrades vs Mech and access to drop play as Mech doesn't have many good answers early on against airship harass. We also want ballista if they make lots of gyro's or catapult drops, we cant rely on the snakes long term. Having a better and 2nd form of anti air will free up our snakes to be out on the map as well.
 
-### Vs Beast 
+### Beast Mirror
 
 Beast vs Beast is honestly not a match up I or other top players have heavily explored I think. Currently my thoughts are playing 1 or 2 Testing labs off of 2 dens into a third seems to be the meta but that is highly subject to change.
 
@@ -91,8 +91,10 @@ play as you see fit after.
 - If they go to take a 3rd → take your 4th right away.
 - Going for air or cata drops will generally mean their actual ground power is pretty weak for a while — but **don't** get carried away and try to take a 4th vs someone still on 2 base. Respect 2-base all-ins somewhat.
 ----------------------------------------------------------------
-## How do we transition off wolf-snake without dying?
-**Workshop Transition**: It is very typical for beast after their 4th or 5th base to add on 2 to 3 workshops to have access to catapult drops to aid in their ability to harass as well as some kind of answer to the rax army starting to become a deathball.
+## Vs Rax how do we transition off wolf-snake without dying?
+**Workshop Transition**: It is very typical for beast after their 4th or 5th base to add on 2 to 3 workshops to have access to catapult drops to aid in their ability to harass as well as some kind of answer to the rax army starting to become a deathball. After 5 base it can be good to start switching into a more dragon cata army.
+
+OR
 
 **Heavy upgrades + Church**: I have been toying with going up to 3 testing labs regularly to try and start rushing out armor upgrades suddenly after our 4th base as it will make dragons and WW alot more viable tech options I also recommend pairing a church with the start of the armor upgrades for 2 reasons
 1. Stacking beast hp regen + healing wards + armor seems very strong.

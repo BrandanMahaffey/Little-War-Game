@@ -64,15 +64,6 @@ From here there are a lot of options depending on how things have gone. Transiti
 
 
 ---
-## Mid Game tips?
-Raiders don't belong defending at home most of the time they are most dangerous threatening backstabs and scouting. The amount of times i see people pull them back to defend vs pushes smh. 
-If you can get behind them right as they leave have 1 raider hold position abit closer to were they left from incase they come back and the rest can go for the workers. Otherwise cut off the rally for a few moments then mosey behind them so you can hit them from both sides when you're ready.
-
-With rax play I really advise a bird around the time of your third completing, as its harder to gather info without endangering or giving away the position of your raiders. Not only will the bird scout but it pulls double duty right after scouting by helping you keep nearly perfect track of their main unit positioning; this can let you much more quickly & accurately figure out weak points to go after with your raiders while macroing up.
-
-Vs beast hot keying your first 4 to 5 archers separately is useful as 4 archers will 2 shot a snake and 5 archers will 3 shot a wolf.
-
-Don't put your early houses as walls; they are just easy targets for wolf snake to come in and poke at. Repairing buildings is very expensive unless you need that building to stay alive in that moment; its more cost effective to just build a new house or rax rather than repair if you fear losing one in the near future. Later on it can be okay to make semi walls with buildings when you have more money.
 ## Scouting Reactions after third
 
 ### If opponent is playing standard
@@ -118,3 +109,12 @@ You still need to scout though, as beast players will regularly play very greedy
 If upgrades are even wolf snake tends to require a substantial supply lead to battle vs rax armies. So much so that its standard play for beast to transition into catas after their 4th or 5th base in order to have some of kind answer to your death ball; once you scout them switching into cata's that is your big signal to claim the map back. If you are capable split pushing and taking bases is ideal now. Every time you come across their forces just poke and kite back away from the catas. You will trade very well and just rinse and repeat on 2 sides until they are worn down.
 
 Cata drops or letting them trap half your army alone with their entire army is their only threat to you at this point. You can nullify the getting your army trapped alone threat by keeping it together, but then you have a new problem; they can begin base tradey tactics and expand away from your army and its fairly effective.
+## Tips
+Raiders don't belong defending at home most of the time they are most dangerous threatening backstabs and scouting. The amount of times i see people pull them back to defend vs pushes smh. 
+If you can get behind them right as they leave have 1 raider hold position abit closer to were they left from incase they come back and the rest can go for the workers. Otherwise cut off the rally for a few moments then mosey behind them so you can hit them from both sides when you're ready.
+
+With rax play I really advise a bird around the time of your third completing, as its harder to gather info without endangering or giving away the position of your raiders. Not only will the bird scout but it pulls double duty right after scouting by helping you keep nearly perfect track of their main unit positioning; this can let you much more quickly & accurately figure out weak points to go after with your raiders while macroing up.
+
+Vs beast hot keying your first 4 to 5 archers separately is useful as 4 archers will 2 shot a snake and 5 archers will 3 shot a wolf.
+
+Don't put your early houses as walls; they are just easy targets for wolf snake to come in and poke at. Repairing buildings is very expensive unless you need that building to stay alive in that moment; its more cost effective to just build a new house or rax rather than repair if you fear losing one in the near future. Later on it can be okay to make semi walls with buildings when you have more money.
