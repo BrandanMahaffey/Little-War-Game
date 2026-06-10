@@ -73,10 +73,10 @@ With rax play I really advise a bird around the time of your third completing, a
 Vs beast hot keying your first 4 to 5 archers separately is useful as 4 archers will 2 shot a snake and 5 archers will 3 shot a wolf.
 
 Don't put your early houses as walls; they are just easy targets for wolf snake to come in and poke at. Repairing buildings is very expensive unless you need that building to stay alive in that moment; its more cost effective to just build a new house or rax rather than repair if you fear losing one in the near future. Later on it can be okay to make semi walls with buildings when you have more money.
-## Scouting Reactions
+## Scouting Reactions after third
 
 ### If opponent is playing standard
-`forge > 4th base > 2 rax (4)` — can swap this order as you see fit.
+`forge > 4th base > 2 rax (4)` — can swap this order if you like, but this is how I like to do it typically. Proceed after how you see fit.
 
 ---
 

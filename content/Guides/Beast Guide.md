@@ -29,7 +29,7 @@ down below are three variations
 19 Castle > Tower > worker > Animal Testing Lab
 2nd den Or Fortress when you can afford
 
-(Vs Anything) = Daz Variation
+(Vs Anything) = I would call this variation the Daz opening
 19 Castle > Rax > Worker
 Wolf archer is very versatile in the early game though you often need workers to help defend the low ground temporarily vs raider pressure.
 
@@ -55,6 +55,14 @@ When possible while scouting around someone's natural its often a very good habi
 **Transitioning once we are safe or if they fast expand**
 - After still doing a 2 den snake charmer setup we just don't have to rush anything if they fast expand, I typically like going for an Advanced Workshop + Testing Lab Rather than rushing a third. We desperately want good attack upgrades vs Mech and access to drop play as Mech doesn't have many good answers early on against airship harass. We also want ballista if they make lots of gyro's or catapult drops, we cant rely on the snakes long term. Having a better and 2nd form of anti air will free up our snakes to be out on the map as well.
 
+### Vs Beast 
+
+Beast vs Beast is honestly not a match up I or other top players have heavily explored I think. Currently my thoughts are playing 1 or 2 Testing labs off of 2 dens into a third seems to be the meta but that is highly subject to change.
+
+Dragons honestly feel pretty decent in the match up especially on big maps.
+
+Werewolves are also actually very strong in the match up as well but id recommend playing it off an armor upgraded heavy wolf early game though its actually kind of a weird situation where they take so long to get into but are so good in beast vs beast, that when scouted the non WW player generally has to respond with 2 workshops and gatlings but due to how long it takes to field WW's usually they get enough gatlings in time to be safe or even in a good spot.
+
 ---
 
 ## Mid game
@@ -63,7 +71,28 @@ From here there are a lot of options depending on how things have gone. Transiti
 
 - <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html" target="_blank" rel="noopener">Decision Making Skeleton</a>
 
-**Workshop Transition**: It is very typical for beast after their 4th or 5th base to add on 2 to 3 workshops to have access to catapult drops to aid in their ability to harras as well as some kind of answer to the rax army starting to become a deathball.
+## Scouting Reactions after third
+
+### If opponent is playing standard
+`ATL(animal testing lab) > 4th base > 2 den+charmer (4)`  can swap this order if you like but this is how I like to do it typically. Proceed after how you see fit.
+
+---
+
+### If opponent's 3rd is notably later than yours
+`2 den (4) > ATL (animal testing lab) > take 4th base > 2 den (6)` 
+play as you see fit after. 
+
+---
+
+### If opponent goes early workshop / air
+
+- Get **adv. workshop** as soon as you know — it can actually supersede the 3rd base in priority if you learn it early enough.
+- Use **ballista ship** to deny pressure and look to stay a full base ahead.
+- If they go to take a 3rd → take your 4th right away.
+- Going for air or cata drops will generally mean their actual ground power is pretty weak for a while — but **don't** get carried away and try to take a 4th vs someone still on 2 base. Respect 2-base all-ins somewhat.
+----------------------------------------------------------------
+## How do we transition off wolf-snake without dying?
+**Workshop Transition**: It is very typical for beast after their 4th or 5th base to add on 2 to 3 workshops to have access to catapult drops to aid in their ability to harass as well as some kind of answer to the rax army starting to become a deathball.
 
 **Heavy upgrades + Church**: I have been toying with going up to 3 testing labs regularly to try and start rushing out armor upgrades suddenly after our 4th base as it will make dragons and WW alot more viable tech options I also recommend pairing a church with the start of the armor upgrades for 2 reasons
 1. Stacking beast hp regen + healing wards + armor seems very strong.
