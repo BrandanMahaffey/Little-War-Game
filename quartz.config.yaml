@@ -78,11 +78,12 @@ plugins:
     enabled: true
     order: 40
   - source: github:quartz-community/table-of-contents
-    enabled: false
+    enabled: true
     order: 50
     layout:
       position: right
       priority: 30
+      condition: not-index
   - source: github:quartz-community/crawl-links
     enabled: true
     options:

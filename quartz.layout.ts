@@ -21,7 +21,6 @@ export function applyLayoutOverrides(layout: FullLayout): FullLayout {
     defaults: {
       ...layout.defaults,
       left: prependSiteTitle(layout.defaults.left),
-      right: layout.defaults.right?.filter((c) => c.displayName !== "TableOfContents"),
     },
     byPageType: Object.fromEntries(
       Object.entries(layout.byPageType).map(([pageType, pageLayout]) => [
@@ -29,7 +28,6 @@ export function applyLayoutOverrides(layout: FullLayout): FullLayout {
         {
           ...pageLayout,
           left: pageLayout.left ? prependSiteTitle(pageLayout.left) : pageLayout.left,
-          right: pageLayout.right?.filter((c) => c.displayName !== "TableOfContents"),
         },
       ]),
     ),
