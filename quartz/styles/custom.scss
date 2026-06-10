@@ -241,25 +241,14 @@ article.graphic-page {
     font-weight: $semiBoldWeight;
   }
 
-  // Mobile: embed pan/zoom viewer inline; desktop keeps the open-in-tab link
   .graphic-viewer {
-    display: none;
+    display: block;
     width: 100%;
     height: min(75vh, 640px);
     margin-top: 1rem;
     border: 1px solid var(--lightgray);
     border-radius: 6px;
     background: #0f1117;
-  }
-
-  @media (max-width: 800px) {
-    .viewer-link {
-      display: none;
-    }
-
-    .graphic-viewer {
-      display: block;
-    }
   }
 }
 

@@ -12,5 +12,5 @@ Dark-themed decision trees and reference charts.
 
 Or open the pan/zoom viewers directly:
 
-- [Decision Making Skeleton (viewer)](https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html)
-- [Opening Response Guide (viewer)](https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/Opening_Response_Guide.html)
+- <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html" target="_blank" rel="noopener">Decision Making Skeleton (viewer)</a>
+- <a href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/Opening_Response_Guide.html" target="_blank" rel="noopener">Opening Response Guide (viewer)</a>

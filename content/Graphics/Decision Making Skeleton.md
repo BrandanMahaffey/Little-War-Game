@@ -10,3 +10,5 @@ cssclasses:
 <p class="page-subtitle">Interactive build order chunk theory reference.</p>
 
 <a class="viewer-link" href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/decision_making_skeleton.html" target="_blank" rel="noopener">Open interactive viewer ↗</a>
+
+<iframe class="graphic-viewer" title="Decision Making Skeleton viewer" src="../static/Graphics/decision_making_skeleton.html" loading="lazy"></iframe>
