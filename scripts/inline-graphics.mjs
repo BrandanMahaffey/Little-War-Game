@@ -1,5 +1,6 @@
 import fs from "fs"
 import path from "path"
+import { removeSkeletonPipelineTrack } from "./patch-skeleton-pipeline.mjs"
 
 const dir = path.join("quartz", "static", "Graphics")
 const HOME_URL = "https://brandanmahaffey.github.io/LWG-Guides/"
@@ -168,6 +169,9 @@ function embedSvg(html, svg) {
 for (const [htmlFile, svgFile] of pairs) {
   let html = fs.readFileSync(path.join(dir, htmlFile), "utf8")
   let svg = fs.readFileSync(path.join(dir, svgFile), "utf8")
+  if (svgFile === "decision_making_skeleton.svg") {
+    ;({ svg } = removeSkeletonPipelineTrack(svg))
+  }
   svg = svg.replace("<svg ", '<svg id="img" style="display:block" ')
   html = embedSvg(html, svg)
   html = patchScript(html)
