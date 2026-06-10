@@ -78,7 +78,7 @@ Graphics stub pages use `cssclasses: [graphic-page]` to hide the Properties bloc
 1. Copy [[content/templates/Guide Template.md]] → `content/Guides/Your Guide.md`
 2. Set `draft: false` when ready
 3. Add a link on [[content/Index.md]] and [[content/Guides/index.md]]
-4. Interactive graphics use full URLs: `https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/...html` (no `target="_blank"` — same-tab fullscreen)
+4. Interactive graphics use same-origin relative URLs: `../static/Graphics/...html` from guides/graphics pages, `static/Graphics/...html` from the home page (no `target="_blank"` — same-tab fullscreen)
 5. Source assets: `quartz/static/Graphics/` (`.html`, `.svg`); Excalidraw sources live in Obsidian `Excalidraw/`
 
 ## Explorer sidebar stuck?

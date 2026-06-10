@@ -87,22 +87,72 @@ function patchScript(html) {
         `  function fitToScreen() {
     const vw = viewport.clientWidth;
     const vh = viewport.clientHeight;
-    const { w: iw, h: ih } = graphicSize(img);`,
+    const { w: iw, h: ih } = graphicSize(img);
+    if (vw < 1 || vh < 1 || iw < 1 || ih < 1) return;`,
       )
       .replace(/img\.naturalWidth/g, "graphicSize(img).w")
       .replace(/img\.naturalHeight/g, "graphicSize(img).h")
+  } else if (
+    html.includes("function fitToScreen()") &&
+    !html.includes("if (vw < 1 || vh < 1")
+  ) {
+    html = html.replace(
+      /(function fitToScreen\(\) \{\n    const vw = viewport\.clientWidth;\n    const vh = viewport\.clientHeight;\n    const \{ w: iw, h: ih \} = graphicSize\(img\);)/,
+      `$1
+    if (vw < 1 || vh < 1 || iw < 1 || ih < 1) return;`,
+    )
   }
 
-  if (html.includes("// Init — fit to screen once image loads")) {
+  if (!html.includes(".canvas svg")) {
+    html = html.replace(
+      ".canvas img {\n      display: block;\n      max-width: none;\n    }",
+      `.canvas img,
+    .canvas svg {
+      display: block;
+      max-width: none;
+    }`,
+    )
+  }
+
+  const initBlock = `  function scheduleFitToScreen() {
+    requestAnimationFrame(() => {
+      if (viewport.clientWidth < 1 || viewport.clientHeight < 1) return;
+      fitToScreen();
+    });
+  }
+
+  function initViewer() {
+    const ready = () => {
+      fitToScreen();
+      requestAnimationFrame(fitToScreen);
+    };
+    if (img.tagName.toLowerCase() === 'svg') {
+      ready();
+    } else {
+      img.onload = ready;
+      if (img.complete) ready();
+    }
+  }
+
+  initViewer();
+  window.addEventListener('resize', scheduleFitToScreen);
+  window.addEventListener('load', scheduleFitToScreen);
+  window.addEventListener('pageshow', (e) => {
+    if (e.persisted) scheduleFitToScreen();
+  });
+  if (typeof ResizeObserver !== 'undefined') {
+    new ResizeObserver(scheduleFitToScreen).observe(viewport);
+  }`
+
+  if (html.includes("// Init — fit to screen once graphic is ready")) {
+    html = html.replace(
+      /  \/\/ Init — fit to screen once graphic is ready[\s\S]*?(?=\n<\/script>)/,
+      initBlock,
+    )
+  } else if (html.includes("// Init — fit to screen once image loads")) {
     html = html.replace(
       /  \/\/ Init — fit to screen once image loads\n  img\.onload = fitToScreen;\n  if \(img\.complete\) fitToScreen\(\);/,
-      `  // Init — fit to screen once graphic is ready
-  if (img.tagName.toLowerCase() === 'svg') {
-    fitToScreen();
-  } else {
-    img.onload = fitToScreen;
-    if (img.complete) fitToScreen();
-  }`,
+      initBlock,
     )
   }
 
