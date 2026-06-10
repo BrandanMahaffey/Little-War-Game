@@ -39,24 +39,20 @@ function patchViewerNav(html) {
     )
   }
 
-  if (!html.includes("function goBack()")) {
+  return html
+}
+
+function useExternalViewer(html) {
+  if (!html.includes('src="viewer.js"')) {
     html = html.replace(
-      /<script>\s*\n/,
-      `<script>
-  const HOME_URL = '${HOME_URL}';
-
-  function goBack() {
-    if (window.history.length > 1) {
-      history.back();
-    } else {
-      window.location.href = HOME_URL;
-    }
-  }
-
-`,
+      "</style>\n</head>",
+      `</style>\n  <script src="viewer.js" defer></script>\n</head>`,
     )
   }
-
+  html = html.replace(
+    /<div class="hint">scroll to zoom[\s\S]*?<\/script>\s*(?=<\/body>)/,
+    '<div class="hint">scroll to zoom · drag to pan</div>\n\n',
+  )
   return html
 }
 
@@ -176,6 +172,7 @@ for (const [htmlFile, svgFile] of pairs) {
   html = embedSvg(html, svg)
   html = patchScript(html)
   html = patchViewerNav(html)
+  html = useExternalViewer(html)
   fs.writeFileSync(path.join(dir, htmlFile), html)
   console.log(`Updated ${htmlFile} (${fs.statSync(path.join(dir, htmlFile)).size} bytes)`)
 }

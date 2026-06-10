@@ -24,6 +24,10 @@ const isSamePage = (url: URL): boolean => {
   return sameOrigin && samePath
 }
 
+// Pan/zoom graphic viewers are standalone HTML pages — SPA morph breaks their JS
+const isGraphicViewerUrl = (url: URL) =>
+  /\/static\/Graphics\/[^/]+\.html$/i.test(url.pathname)
+
 const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined => {
   if (!isElement(target)) return
   if (target.attributes.getNamedItem("target")?.value === "_blank") return
@@ -32,7 +36,9 @@ const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined 
   if ("routerIgnore" in a.dataset) return
   const { href } = a
   if (!isLocalUrl(href)) return
-  return { url: new URL(href), scroll: "routerNoscroll" in a.dataset ? false : undefined }
+  const url = new URL(href)
+  if (isGraphicViewerUrl(url)) return
+  return { url, scroll: "routerNoscroll" in a.dataset ? false : undefined }
 }
 
 function notifyNav(url: FullSlug) {
@@ -65,6 +71,11 @@ function stopLoading() {
 let isNavigating = false
 let p: DOMParser
 async function _navigate(url: URL, isBack: boolean = false) {
+  if (isGraphicViewerUrl(url)) {
+    window.location.assign(url)
+    return
+  }
+
   isNavigating = true
   startLoading()
   p = p || new DOMParser()
@@ -170,11 +181,14 @@ function createRouter() {
       navigate(url, false)
     })
 
-    window.addEventListener("popstate", (event) => {
-      const { url } = getOpts(event) ?? {}
-      if (window.location.hash && window.location.pathname === url?.pathname) return
-      navigate(new URL(window.location.toString()), true)
-      return
+    window.addEventListener("popstate", () => {
+      const url = new URL(window.location.toString())
+      if (isGraphicViewerUrl(url)) {
+        window.location.reload()
+        return
+      }
+      if (window.location.hash) return
+      navigate(url, true)
     })
   }
 
