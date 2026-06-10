@@ -7,8 +7,6 @@ cssclasses:
 
 # Beast guide
 
-> This is going to cover 2 beast openings
-
 ## DC opening
 
 8 House

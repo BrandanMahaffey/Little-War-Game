@@ -55,7 +55,7 @@ async function mouseEnterHandler(
     return
   }
 
-  const response = await fetchCanonical(targetUrl).catch((err) => {
+  const response = await fetchCanonical(targetUrl, { cache: "no-store" }).catch((err) => {
     console.error(err)
   })
 
@@ -101,10 +101,18 @@ async function mouseEnterHandler(
         const targetID = `popover-internal-${el.id}`
         el.id = targetID
       })
-      const elts = [...html.getElementsByClassName("popover-hint")]
-      if (elts.length === 0) return
+      const articleHint = html.querySelector("article.popover-hint")
+      if (articleHint) {
+        popoverInner.appendChild(articleHint)
+      } else {
+        const elts = [...html.getElementsByClassName("popover-hint")]
+        if (elts.length === 0) return
 
-      elts.forEach((elt) => popoverInner.appendChild(elt))
+        elts.forEach((elt) => {
+          if (elt.closest(".page-header")) return
+          popoverInner.appendChild(elt)
+        })
+      }
   }
 
   if (!!document.getElementById(popoverId)) {

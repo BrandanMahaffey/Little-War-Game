@@ -70,6 +70,19 @@
   }
 }
 
+// Link hover previews — article content only, no Properties / breadcrumbs chrome
+.popover-inner {
+  .breadcrumb-container,
+  .note-properties,
+  .content-meta {
+    display: none;
+  }
+
+  article.popover-hint > h1:first-child {
+    margin-top: 0;
+  }
+}
+
 // TOC: hide list when collapsed; keep header readable
 .sidebar.right .toc:has(button.toc-header.collapsed) {
   flex: 0 0 auto;
