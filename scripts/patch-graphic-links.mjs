@@ -20,6 +20,11 @@ function patchFile(filePath) {
     ">Open fullscreen viewer</",
   )
 
+  text = text.replace(
+    /<a(?![^>]*data-router-ignore)([^>]*href="https:\/\/brandanmahaffey\.github\.io\/LWG-Guides\/static\/Graphics\/[^"]+\.html")/g,
+    "<a data-router-ignore$1",
+  )
+
   if (text !== original) {
     fs.writeFileSync(filePath, text)
     console.log(`Patched ${filePath}`)
