@@ -11,4 +11,4 @@ cssclasses:
 
 <a class="viewer-link" href="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/Opening_Response_Guide.html" target="_blank" rel="noopener">Open interactive viewer ↗</a>
 
-<iframe class="graphic-viewer" title="Opening Response Guide viewer" src="../static/Graphics/Opening_Response_Guide.html" loading="lazy"></iframe>
+<iframe class="graphic-viewer" title="Opening Response Guide viewer" src="https://brandanmahaffey.github.io/LWG-Guides/static/Graphics/Opening_Response_Guide.html" loading="lazy"></iframe>
