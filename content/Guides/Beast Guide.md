@@ -29,7 +29,10 @@ down below are three variations
 19 Castle > Tower > worker > Animal Testing Lab
 2nd den Or Fortress when you can afford
 
-(Vs Anything) = I would call this variation the Daz opening
+(Vs Anything)  I would call this variation the Daz opening
+Daz + opening? Dazening? if you lose to this have you been Dazzled? 
+Food for thought for minds greater than mine. 
+
 19 Castle > Rax > Worker
 Wolf archer is very versatile in the early game though you often need workers to help defend the low ground temporarily vs raider pressure.
 
