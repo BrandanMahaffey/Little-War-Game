@@ -45,11 +45,12 @@ OR
 **Cheese variations:**
 
 **9/9:** If you want more ideas for different ways to commit atrocities right when you hit supply cap ( got money for last wolves)  then you can pull all workers & try to keep initial wolves alive and let them regen while workers and last 2 wolves come across map.
-- Closest thing you are going to find to a 12 pool drone pull all in. Typically my 12th worker isn't finished building when the worker pull happens and ill keep the rally to the gold as a final failsafe incase I can at least kill all their workers and they keep a raider alive I have a chance still
+- Closest viable option you are going to a 12 pool drone pull all in. ( I already tried a 7 house 7den/den worker pull all in but it seems quite alot worse)
+- Typically my 12th worker isn't finished building when the worker pull happens and ill keep the rally to the gold as a final failsafe incase I at least kill all their workers and they keep a raider alive I have a chance.
 
-if you want a slightly stronger version of the same cheese but less flexible you can stop making workers entirely at 10 and you'll have the money for the last wolves sooner and can worker pull slightly faster. downside to this version is if your initial wolves see it probably wont work and you want to switch to macro its going to be way worse at transitioning. I prefer the above variation and prefer to choose to do the pull if things are going well.
+However if you want a slightly stronger version of the same cheese but less flexible you can stop making workers entirely at 10 and you'll have the money for the last wolves sooner and can worker pull slightly faster. downside to this version is if your initial wolves see it probably wont work and you want to switch to macro its going to be way worse at transitioning. I prefer the above variation and prefer to choose to do the pull if things are going well.
 
-**10/10:**  After making 3rd house send across 2 workers to begin a tower rushing with the wolves.
+**10/10:**  After making 3rd house send across 2 workers to begin a tower rush with the wolves.
 - If you see them begin a tower in the nat during the wolf pressure you will slightly change gears and use one of the two workers on their way to now make a proxy workshop as soon as you can and the 2nd worker will stop to build a 4th house then he can go on to make the first staging tower outside their nat to help solidify the eventual cata siege.
 - if they build their tower up against any of their buildings on the low ground manually shoot the catapult in-between any touching buildings to maximize splash damage.
 
