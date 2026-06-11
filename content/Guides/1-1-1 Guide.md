@@ -9,10 +9,9 @@ cssclasses:
 
 > Because it falls slightly outside the scope of the decision making skeleton I figured I would try and make a guide specifically for it. However I hope to still show how we will use intentional cuts in production to more or less follow a similar pattern. We wont always be outputting from all 3 of our buildings unless we need to but that's the where the power of the 1-1-1 comes from. Flexibility thy name is 1-1-1
 
-## 3 Openings I would suggest
-
-
-**3 Raider expand** 
+##### Openings I would suggest
+--------------------------------
+**3 Raider expand**
 
 | Supply     | Build                       |
 | ---------- | --------------------------- |
