@@ -24,7 +24,7 @@ Very normal to cancel third raider and expand faster if you see its a mirror mat
 
 - It feels important to mention the premise of this opening is to allow you to ignore the first pesky scouting wolf on your side of the map that normally tries to keep your 2nd raider home. When its time to expand you are going to simply pull down 3 workers (1) to build if they try to deny your expansion with a wolf so you can fully commit to attacking them with your first 3 raiders while still having a decent follow up.
 - Benchmarked against the 11 worker 2 raider opening is economically about identical, you get more opening pressure and safety but need an early 2nd building to make up for the idle rax time after the supply block. There are pros and cons to both setups.
-- Vs beast if i feel like my raiders have done some okay work vs their wolves I am quite fond of pushing with 3 raiders 4 soldiers and then making 2 extra soldiers before my third and rallying them to to the third to help secure it while i do some poking.
+- Vs beast if i feel like my raiders have done some okay work vs their wolves I am quite fond of pushing with 3 raiders 4 soldiers and then making 2 extra soldiers before my third and rallying them to the third to help secure it while i do some poking.
 
 **OR** 
 ## Classic raider expand
@@ -74,7 +74,7 @@ From here there are a lot of options depending on how things have gone. Transiti
 ## Scouting Reactions after third
 
 ### If opponent is playing standard
-`forge > 4th base > 2 rax (4)` — can swap this order if you like, but this is how I like to do it typically. Proceed after how you see fit.
+`forge > 4th base > 2 rax (4)` — can swap this order if you like, but this is how I like to do it typically. Proceed how you see fit.
 
 ---
 

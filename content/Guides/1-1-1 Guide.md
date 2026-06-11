@@ -7,7 +7,7 @@ cssclasses:
 
 # 1-1-1 Guide
 
-> Because it falls slightly outside the scope of the decision making skeleton I figured I would try and make a guide specifically for it. However I hope to still show how we will use intentional cuts in production to more or less follow a similar pattern. We wont always be outputting from all 3 of our buildings unless we need to but that's the where the power of the 1-1-1 comes from. Flexibility thy name is 1-1-1
+> Because it falls slightly outside the scope of the decision making skeleton I figured I would try and make a guide specifically for it. However I hope to still show how we will use intentional cuts in production to more or less follow a similar pattern. We wont always be outputting from all 3 of our buildings unless we need to but that's where the power of the 1-1-1 comes from. Flexibility thy name is 1-1-1
 
 ##### Openings I would suggest
 --------------------------------
@@ -30,11 +30,11 @@ cssclasses:
 26 castle > 28 tower (3rd) > 30 tower(nat) @ 100% castle > 3x worker > Workshop > 3x worker > archer + house, 
 will need another house after starting cata"  < insert mill @100% workshop
 
-This is a not a 2 base 1-1-1 but rather 3 base so I'm not sure if it "counts" but this has for a long time been one of the strongest ways to get into playing mech if you can pull off the early game execution. I think it transitions into a very solid setup. you aren't forced to stay on mech after the 1-1-1 either but i generally find having the towers already lends the best synergy to sticking with mech. 
+This is not a 2 base 1-1-1 but rather 3 base so I'm not sure if it "counts" but this has for a long time been one of the strongest ways to get into playing mech if you can pull off the early game execution. I think it transitions into a very solid setup. you aren't forced to stay on mech after the 1-1-1 either but i generally find having the towers already lends the best synergy to sticking with mech. 
 
 --------------------------------------
 **DC > 1-1-1.**
-I also want to throw in this curveball because I actually think this build is good and having many ways to get into a similar style is very useful. However I wont really be going into heavy detail on this variation as it will would have a lot of carry over information + I don't think it has quite as good synergy as Rax. I find the wolves less intimidating than the raiders when looking for unit pick offs on top of needing to keep the den producing to have enough wolves to do anything. Contrasted with I feel like I can cut production on my rax if i feel like it when using the workshop. however the boon is it doesn't need the tower vs pressure as the wolves may not be as good at backstabbing they are more capable at fighting and you have access to wolf gat if you do need to use your workshop instead of being more pigeon holed into cata's. Vs mass archer you will still want the cata + airship combo though instead of wolf-gat.
+I also want to throw in this curveball because I actually think this build is good and having many ways to get into a similar style is very useful. However I wont really be going into heavy detail on this variation as it would have a lot of carry over information + I don't think it has quite as good synergy as Rax. I find the wolves less intimidating than the raiders when looking for unit pick offs on top of needing to keep the den producing to have enough wolves to do anything. Contrasted with I feel like I can cut production on my rax if i feel like it when using the workshop. however the boon is it doesn't need the tower vs pressure as the wolves may not be as good at backstabbing they are more capable at fighting and you have access to wolf gat if you do need to use your workshop instead of being more pigeon holed into cata's. Vs mass archer you will still want the cata + airship combo though instead of wolf-gat.
 
 8 House
 9 Den
@@ -66,7 +66,7 @@ If Opponents are staying 2 base longer than usual, and we are starting to bank g
 
 ## Mid game
 
-I honestly don't even know where to start because you can take it in so many directions and there could be many early game divergent points so I think I need to keep it simple and recommend a few things I like and remind you gyros should be giving you great scouting info react the best you can.
+I honestly don't even know where to start because you can take it in so many directions and there could be many early game divergent points so I think I need to keep it simple and recommend a few things I like and remind you gyros should be giving you great scouting info, and react the best you can.
 
 **I usually wind up doing 1 of 3 things depending on how the early game went.**
 - Quick third: into a quick 4th off 1-1-1 ( typically I am only using 2 of the 3 buildings at a time to produce from depending on what I scout and what units I think will be most useful which actually makes this a very similar setup to the normal midgame skeleton albeit somewhat slower. or with the downside of later forges 

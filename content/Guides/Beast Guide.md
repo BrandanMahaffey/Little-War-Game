@@ -77,7 +77,7 @@ From here there are a lot of options depending on how things have gone. Transiti
 ## Scouting Reactions after third
 
 ### If opponent is playing standard
-`ATL(animal testing lab) > 4th base > 2 den+charmer (4)`  can swap this order if you like but this is how I like to do it typically. Proceed after how you see fit.
+`ATL(animal testing lab) > 4th base > 2 den+charmer (4)`  can swap this order if you like but this is how I like to do it typically. Proceed how you see fit.
 
 ---
 
