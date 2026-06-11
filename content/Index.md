@@ -16,6 +16,7 @@ Written openings with build tables, mid-game transitions, and how to react to sc
 - [[Guides/Rax Guide|1 Rax Raider Expand]] 
 - [[Guides/2 Den|2 Den]]
 - [[Guides/Beast Guide|Beast Guide]]
+- [[Guides/1-1-1 Guide|1-1-1 Guide]]
 
 ## Graphics
 
