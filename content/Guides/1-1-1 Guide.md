@@ -7,7 +7,7 @@ cssclasses:
 
 # 1-1-1 Guide
 
-> Because it falls slightly outside the scope of the decision making skeleton I figured I would try and make a guide specifically for it. However I hope to still show how we will use intentional cuts in production to more or less follow a similar pattern. We wont always be outputting from all 3 of our buildings unless we need to but that's where the power of the 1-1-1 comes from. Flexibility thy name is 1-1-1
+Because it falls slightly outside the scope of the decision making skeleton I figured I would try to make a guide specifically for it. However I hope to still show how we will use intentional cuts in production to more or less follow a similar pattern. We wont always be outputting from all 3 of our buildings unless we need to but that's where the power of the 1-1-1 comes from, flexibility.
 
 ##### Openings I would suggest
 --------------------------------
